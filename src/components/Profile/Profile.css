@@ -1,0 +1,45 @@
+.profile{
+    display: flex;
+    flex-flow: column;
+}
+
+.uProfile{
+    display: flex;
+    flex-flow: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: solid;
+}
+.uProfile img{
+    margin-left: 35%;
+    width: 30%;
+    height: 30%;
+}
+
+.uProfiled{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.uProfiled a{
+    flex: 0 0 50%;
+    margin-bottom: 5%;
+}
+
+
+.uProfiles{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row-reverse;
+}
+.uProfiles button{
+    flex: 0 0 20%;
+    width: 10%;
+    height: 10%;
+    border-color: black;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+}

@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  margin-left: 74%;
+}
+
+.nav button {
+  flex: 0 0 10%;
+  border: solid;
+  margin-right: 2%;
+  margin-bottom: 6%;
+  font-size: large;
+}

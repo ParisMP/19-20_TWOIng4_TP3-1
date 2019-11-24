@@ -1,0 +1,26 @@
+.commentaire{
+    display: flex;
+    flex-flow: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    border-color: black;
+    border-style: solid;
+}
+
+.commentaire a{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: large;
+}
+
+.commentaire button{
+    flex: 0 0 15%;
+    width: 25%;
+    height: 10%;
+    border-color: black;
+    margin: 2%;
+    font-size: large;
+    font-style: italic;
+}
